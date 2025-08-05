@@ -1,0 +1,36 @@
+Table "product_managers" {
+  "pm_id" INT [pk, increment]
+  "name" VARCHAR(100)
+  "email" VARCHAR(100)
+  "department" VARCHAR(50)
+}
+
+Table "features" {
+  "feature_id" INT [pk, increment]
+  "title" VARCHAR(100)
+  "description" TEXT
+  "status" VARCHAR(50)
+  "pm_id" INT
+}
+
+Table "sprints" {
+  "sprint_id" INT [pk, increment]
+  "name" VARCHAR(100)
+  "start_date" DATE
+  "end_date" DATE
+}
+
+Table "sprint_features" {
+  "sprint_id" INT
+  "feature_id" INT
+
+  Indexes {
+    (sprint_id, feature_id) [pk]
+  }
+}
+
+Ref:"product_managers"."pm_id" < "features"."pm_id"
+
+Ref:"sprints"."sprint_id" < "sprint_features"."sprint_id"
+
+Ref:"features"."feature_id" < "sprint_features"."feature_id"
