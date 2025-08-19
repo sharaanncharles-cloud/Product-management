@@ -57,7 +57,7 @@ Please refer to the **Case Study** for detailed insights.
 👩‍💻 **Shara Ann Charles**  
 🔗 [LinkedIn](https://www.linkedin.com/in/sharaanncharles)  
 🌐 [Portfolio Website](https://sharaanncharles.odoo.com/)  
-📧 Email available on request  
+📧 [sharaanncharles@gmail.com](mailto:sharaanncharles@gmail.com) 
 
 ---
 
