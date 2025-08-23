@@ -1,50 +1,72 @@
-# 🎓 Student Performance Dashboard – Power BI
+# 📂 Product Management Portfolio
 
-## 📌 Project Overview
-This project analyzes **student academic performance** using the StudentsPerformance dataset.  
-The dashboard, built in **Power BI**, identifies how **demographics, parental education, lunch type, and test preparation** impact student outcomes.
-
----
-
-## 🔑 Key Features
-- **KPI Cards** for Math, Reading, Writing, and Overall Scores.  
-- **Comparison Visuals**:
-  - Math, Reading, Writing scores by **Ethnicity**  
-  - Overall Score by **Parental Education**  
-  - Overall Score by **Test Preparation**  
-  - Overall Score by **Lunch Type**  
-- **Interactive Filters (Slicers)** for Lunch, Ethnicity, and Parental Education.  
+Welcome to my **Product Management & Analytics Portfolio** 🚀  
+This repository showcases hands-on projects that combine **data storytelling, dashboards, SQL, and product strategy**.  
+It’s designed to demonstrate how I use **data-driven insights** to support product management decisions.  
 
 ---
 
-## 📊 Key Insights
-- Students with **standard lunch** scored ~8 points higher on average than those with free/reduced lunch.  
-- Students who **completed test preparation** scored ~8 points higher than those who did not.  
-- **Parental education** plays a strong role: students with parents holding a Master’s degree score ~11 points higher than those with only high school education.  
-- **Ethnicity differences** show Group E performing best across all subjects.  
+## 📊 Projects
+
+### 🎓 Student Performance Dashboard (Power BI)
+📁 [View Project Folder](./student-performance-dashboard)  
+
+**Objective**: Analyze how demographics, parental education, lunch type, and test preparation affect student performance.  
+
+**Tools**: Power BI, Power Query, DAX  
+
+**Key Features**:
+- KPI Cards for Math, Reading, Writing, and Overall Scores.  
+- Visuals for Ethnicity, Parental Education, Lunch Type, and Test Prep impact.  
+- Interactive slicers for quick filtering and comparisons.  
+
+**Key Insights**:
+- Students with **standard lunch** scored ~8 points higher than those with free/reduced lunch.  
+- Students who **completed test preparation** performed ~8 points better.  
+- **Parental education** strongly influences scores — Master’s degree parents → +11 points over high school.  
+- Ethnicity analysis shows Group E students performing highest across subjects.  
+
+📌 Files:  
+- `dashboard.pbix` (Power BI file)  
+- `dashboard.pdf` (Exported PDF for preview)  
+- `screenshots/` (Dashboard images)  
+- `StudentsPerformance.xlsx` (Dataset)  
 
 ---
 
-## 🚀 Tools Used
-- **Power BI Desktop**  
-- **Power Query** (for data cleaning)  
-- **DAX Measures** (for clean score calculations)  
+### 🛒 EcomEnhance – Prototype E-Commerce Platform
+📁 [View Project Folder](./)  
+
+**Objective**: Build a prototype e-commerce platform designed to help **small retailers** streamline operations.  
+
+**Tools**: Python, Flask, MySQL  
+
+**Key Features**:
+- Unified customer shopping and admin workflows.  
+- Lightweight, secure, and affordable prototype system.  
+- Demonstrates **MVP design, product management, and technical implementation**.  
+
+**Highlights**:
+- Developed backend with Python & Flask.  
+- Database management with MySQL.  
+- Product workflows aligned to Agile & Scrum.  
 
 ---
 
-## 📂 Repository Contents
-- `dashboard.pbix` → Power BI file (interactive report)  
-- `dashboard.pdf` → Exported PDF version for quick preview  
-- `screenshots/` → Images of dashboard pages  
-- `StudentsPerformance.csv` → Dataset  
+## 🚀 Tech & Tools
+- **Product Management**  
+- **Power BI / Data Visualization**  
+- **SQL & Databases (MySQL)**  
+- **Python for Prototyping**  
+- **Agile & Scrum Practices**  
 
 ---
 
-## 🧭 Relevance for Product Management
-This project demonstrates:
-- Turning raw data into **actionable insights**.  
-- Building **visual stories** that highlight patterns and decision levers.  
-- Applying **data-driven thinking** — a key skill for Product Managers and Analysts.  
+## 🧭 About This Repo
+This repository serves as a **portfolio of projects** showcasing:  
+- Analytical thinking for **Product Management**  
+- Building **dashboards & insights**  
+- Designing **prototypes** for product ideas  
+- Applying **data-driven decision making**  
 
 ---
-
