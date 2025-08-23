@@ -1,72 +1,61 @@
-# 📂 Product Management Portfolio
+# 🎓 Student Performance Dashboard – Power BI
 
-Welcome to my **Product Management & Analytics Portfolio** 🚀  
-This repository showcases hands-on projects that combine **data storytelling, dashboards, SQL, and product strategy**.  
-It’s designed to demonstrate how I use **data-driven insights** to support product management decisions.  
-
----
-
-## 📊 Projects
-
-### 🎓 Student Performance Dashboard (Power BI)
-📁 [View Project Folder](./student-performance-dashboard)  
-
-**Objective**: Analyze how demographics, parental education, lunch type, and test preparation affect student performance.  
-
-**Tools**: Power BI, Power Query, DAX  
-
-**Key Features**:
-- KPI Cards for Math, Reading, Writing, and Overall Scores.  
-- Visuals for Ethnicity, Parental Education, Lunch Type, and Test Prep impact.  
-- Interactive slicers for quick filtering and comparisons.  
-
-**Key Insights**:
-- Students with **standard lunch** scored ~8 points higher than those with free/reduced lunch.  
-- Students who **completed test preparation** performed ~8 points better.  
-- **Parental education** strongly influences scores — Master’s degree parents → +11 points over high school.  
-- Ethnicity analysis shows Group E students performing highest across subjects.  
-
-📌 Files:  
-- `dashboard.pbix` (Power BI file)  
-- `dashboard.pdf` (Exported PDF for preview)  
-- `screenshots/` (Dashboard images)  
-- `StudentsPerformance.xlsx` (Dataset)  
+## 📌 Project Overview
+This project explores **student academic performance** using the StudentsPerformance dataset.  
+The goal is to analyze how different factors such as **demographics, parental education, lunch type, and test preparation** affect student scores across Math, Reading, and Writing.
 
 ---
 
-### 🛒 EcomEnhance – Prototype E-Commerce Platform
-📁 [View Project Folder](./)  
-
-**Objective**: Build a prototype e-commerce platform designed to help **small retailers** streamline operations.  
-
-**Tools**: Python, Flask, MySQL  
-
-**Key Features**:
-- Unified customer shopping and admin workflows.  
-- Lightweight, secure, and affordable prototype system.  
-- Demonstrates **MVP design, product management, and technical implementation**.  
-
-**Highlights**:
-- Developed backend with Python & Flask.  
-- Database management with MySQL.  
-- Product workflows aligned to Agile & Scrum.  
+## 🔑 Dashboard Features
+- **KPI Cards** for Math, Reading, Writing, and Overall Scores.  
+- **Breakdown by Demographics**:
+  - Math, Reading, and Writing scores by **Ethnicity**  
+  - Overall Score by **Parental Education**  
+  - Overall Score by **Test Preparation**  
+  - Overall Score by **Lunch Type**  
+- **Interactive Slicers** for Lunch, Ethnicity, and Parental Education.  
 
 ---
 
-## 🚀 Tech & Tools
-- **Product Management**  
-- **Power BI / Data Visualization**  
-- **SQL & Databases (MySQL)**  
-- **Python for Prototyping**  
-- **Agile & Scrum Practices**  
+## 📊 Key Insights
+- Students with **standard lunch** scored ~8 points higher on average than those with free/reduced lunch.  
+- Students who **completed test preparation** scored ~8 points higher than those who didn’t.  
+- **Parental education** shows a clear impact: students whose parents hold a Master’s degree scored ~11 points higher than those with only high school education.  
+- **Ethnicity differences** exist, with Group E consistently achieving the highest scores across all subjects.  
 
 ---
 
-## 🧭 About This Repo
-This repository serves as a **portfolio of projects** showcasing:  
-- Analytical thinking for **Product Management**  
-- Building **dashboards & insights**  
-- Designing **prototypes** for product ideas  
-- Applying **data-driven decision making**  
+## 🚀 Tools Used
+- **Power BI Desktop**  
+- **Power Query** (data cleaning & transformations)  
+- **DAX** (measures for clean score calculations)  
 
 ---
+
+## 📂 Files
+- `Only powerbi.pbix` → Power BI report file  
+- `Only powerbi.pdf` → Exported PDF version  
+- `screenshots/` → Dashboard preview images  
+- `StudentsPerformance.xlsx` → Dataset  
+
+---
+
+## 📷 Screenshots
+| Math, Reading, Writing by Ethnicity | Lunch & Parental Education Impact | KPI Cards & Test Preparation |
+|------------------------------------|-----------------------------------|------------------------------|
+| ![Ethnicity](1.png) | ![Lunch & Education](2.png) | ![KPIs & Test Prep](3.png) |
+
+---
+
+## ▶️ Getting Started
+To explore this dashboard interactively:  
+1. Download and install **[Power BI Desktop](https://powerbi.microsoft.com/desktop/)** (free).  
+2. Clone or download this repository.  
+3. Open the file `Only powerbi.pbix` in Power BI Desktop.  
+4. Use the slicers (Ethnicity, Lunch, Parental Education) to filter the visuals and interact with the data.  
+
+---
+
+## 🧭 Summary
+This dashboard demonstrates how **educational and socio-economic factors** influence student performance.  
+It provides a clear, interactive way to explore the dataset and uncover actionable insights.
